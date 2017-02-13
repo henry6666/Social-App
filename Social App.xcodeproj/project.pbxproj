@@ -14,6 +14,11 @@
 		BAB495DA1E511E010005DD42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAB495D91E511E010005DD42 /* Assets.xcassets */; };
 		BAB495DD1E511E010005DD42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB495DB1E511E010005DD42 /* LaunchScreen.storyboard */; };
 		BAB495E51E511ECF0005DD42 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BAB495E41E511ECF0005DD42 /* GoogleService-Info.plist */; };
+		BAB495EC1E51AA090005DD42 /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB495EB1E51AA090005DD42 /* FancyView.swift */; };
+		BAB495EF1E51AAAF0005DD42 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB495EE1E51AAAF0005DD42 /* Constants.swift */; };
+		BAB495F11E51AE760005DD42 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB495F01E51AE760005DD42 /* RoundBtn.swift */; };
+		BAB495F31E51B0F60005DD42 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB495F21E51B0F60005DD42 /* FancyField.swift */; };
+		BAB495F51E51EFFC0005DD42 /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB495F41E51EFFC0005DD42 /* FancyBtn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,11 @@
 		BAB495DC1E511E010005DD42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAB495DE1E511E010005DD42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAB495E41E511ECF0005DD42 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BAB495EB1E51AA090005DD42 /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
+		BAB495EE1E51AAAF0005DD42 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BAB495F01E51AE760005DD42 /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
+		BAB495F21E51B0F60005DD42 /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
+		BAB495F41E51EFFC0005DD42 /* FancyBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +90,7 @@
 		BAB495D11E511E010005DD42 /* Social App */ = {
 			isa = PBXGroup;
 			children = (
+				BAB495ED1E51AA9B0005DD42 /* Utilities */,
 				BAB495E81E51221B0005DD42 /* Controller */,
 				BAB495E71E5122140005DD42 /* View */,
 				BAB495E61E51220E0005DD42 /* Model */,
@@ -103,6 +114,10 @@
 		BAB495E71E5122140005DD42 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BAB495EB1E51AA090005DD42 /* FancyView.swift */,
+				BAB495F01E51AE760005DD42 /* RoundBtn.swift */,
+				BAB495F21E51B0F60005DD42 /* FancyField.swift */,
+				BAB495F41E51EFFC0005DD42 /* FancyBtn.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -113,6 +128,14 @@
 				BAB495D41E511E010005DD42 /* SignInVC.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		BAB495ED1E51AA9B0005DD42 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BAB495EE1E51AAAF0005DD42 /* Constants.swift */,
+			);
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,8 +263,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAB495F31E51B0F60005DD42 /* FancyField.swift in Sources */,
 				BAB495D51E511E010005DD42 /* SignInVC.swift in Sources */,
+				BAB495F11E51AE760005DD42 /* RoundBtn.swift in Sources */,
 				BAB495D31E511E010005DD42 /* AppDelegate.swift in Sources */,
+				BAB495EC1E51AA090005DD42 /* FancyView.swift in Sources */,
+				BAB495EF1E51AAAF0005DD42 /* Constants.swift in Sources */,
+				BAB495F51E51EFFC0005DD42 /* FancyBtn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
